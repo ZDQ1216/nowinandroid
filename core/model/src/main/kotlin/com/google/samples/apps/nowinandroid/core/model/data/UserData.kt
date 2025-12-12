@@ -17,7 +17,15 @@
 package com.google.samples.apps.nowinandroid.core.model.data
 
 /**
- * Class summarizing user interest data
+ * 用户偏好设置数据类
+ *
+ * @property bookmarkedNewsResources 已收藏的新闻资源ID集合
+ * @property viewedNewsResources 已浏览的新闻资源ID集合
+ * @property followedTopics 关注的话题ID集合
+ * @property themeBrand 应用主题品牌配置
+ * @property darkThemeConfig 深色主题配置选项
+ * @property useDynamicColor 是否使用动态颜色主题
+ * @property shouldHideOnboarding 是否隐藏新手引导界面
  */
 data class UserData(
     val bookmarkedNewsResources: Set<String>,
