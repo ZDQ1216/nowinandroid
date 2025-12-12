@@ -16,8 +16,14 @@
 
 package com.google.samples.apps.nowinandroid.core.model.data
 
+/**
+ * 深色主题配置
+ */
 enum class DarkThemeConfig {
+    // 跟随系统
     FOLLOW_SYSTEM,
+    // 浅色
     LIGHT,
+    // 深色
     DARK,
 }
